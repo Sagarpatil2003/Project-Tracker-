@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { addProject } from "../api/firebaseApi.jsx"
+import { addProject } from "../api/firebaseApi.js"
 import { useNavigate } from "react-router-dom"
 
 export default function AddProject() {

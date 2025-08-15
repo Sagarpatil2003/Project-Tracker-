@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { getProjects, deleteProject } from "../api/firebaseApi.jsx"
+import { getProjects, deleteProject } from "../api/firebaseApi.js"
 import { Link } from "react-router-dom"
 import { useAuth } from "../context/AuthContext.jsx"
 
